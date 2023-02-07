@@ -205,17 +205,10 @@ a.resources {
 
 /* footer navigation bar */
 
-nav.footer-nav > * {
-    background-color: grey;
-    border: var(--dashed-bord);
-    
-}
-
 footer nav.flex {
     padding: 10px 0;
     margin-top: 10px;
     justify-content: space-between;
-    background-color: lightgreen;
     border-top: 2px solid  #6A83D6;
 }
 
