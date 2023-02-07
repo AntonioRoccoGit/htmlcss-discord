@@ -111,23 +111,24 @@ main div.row:nth-of-type(odd) {
 }
 
 .last-row {
-    height: 600px;
+    text-align: center;
+    padding: 80px;
     align-items: center;
-    /* debug */
-    background-color: rgb(230, 191, 191);
+    background-color: rgb(243, 233, 233);
 }
 
-div.big-content {
-    height: 540px;
-    /* debug */
-    border: var(--dashed-bord);
-    background-color: rgb(4, 117, 0);
+h2.last-row-section {
+    margin: 30px 0;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 2rem;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: black;
+    background-color: #23272A;
 }
 
 /* main section */
@@ -212,6 +213,11 @@ li > a {
 
 .dark {
     background-color: #23272A;
+    color: white;
+}
+
+.blue {
+    background-color: #7289DA;
     color: white;
 }
 
