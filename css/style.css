@@ -86,17 +86,6 @@ section.jumbotron {
     padding: 8px;
 }
 
-.jumbotron h1 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.jumbotron h3 {
-    margin-bottom: 16px;
-    font-weight: 200;
-    font-size: 1rem;
-}
-
 /* body content */
 
 div.row > div.container {
@@ -105,28 +94,20 @@ div.row > div.container {
 }
 
 .row {
-    height: 330px;
-    /* debug */
+    padding: 80px;
 }
 
 .row-img {
     width: 60%;
     height: 280px;
-    /* debug */
-    background-color: rgb(13, 105, 243);
-    border: var(--dashed-bord);
 }
 
 .row-text {
     width: 40%;
-    height: 280px;
-    /* debug */
-    border: var(--dashed-bord);
-    background-color: pink;
 }
 
 main div.row:nth-of-type(odd) {
-    background-color: rgb(230, 191, 191);
+    background-color: rgb(243, 233, 233);
 }
 
 .last-row {
@@ -176,7 +157,7 @@ div.footer-row {
 nav.footer-nav > * {
     background-color: grey;
     border: var(--dashed-bord);
-
+    
 }
 
 footer nav.flex {
@@ -202,7 +183,7 @@ nav.flex button {
 
 .container {
     margin: 0 auto;
-    width: 800px;
+    width: 80%;
     /* debug */
 }
 
@@ -210,6 +191,8 @@ li > a {
     text-decoration: none;
     color: black;
 }
+
+/* button */
 
 .button {
     padding: 6px 8px;
@@ -219,6 +202,7 @@ li > a {
 
 
 .big-button {
+    color: #23272A;
     background-color: white;
     padding: 10px 12px;
     border-radius: 20px;
@@ -233,6 +217,24 @@ li > a {
 
 .mr-20 {
     margin-right: 20px;
+}
+
+/* font */
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin-bottom: 16px;
+    font-weight: 200;
+    font-size: 1rem;
 }
 
 /* VARIABLES */
