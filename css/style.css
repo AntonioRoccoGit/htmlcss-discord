@@ -123,12 +123,19 @@ main div.row:nth-of-type(odd) {
     background-color: rgb(243, 233, 233);
 }
 
-h2.last-row-section {
+div.last-row-capture {
     margin: 30px 0;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2.last-row-section {
     font-size: 2rem;
+    margin-bottom: 40px;
 }
 
 /* FOOTER */
@@ -242,6 +249,7 @@ li > a {
     padding: 6px 8px;
     border-radius: 20px;
     text-decoration-line: none;
+    line-height: 24px;
 }
 
 
